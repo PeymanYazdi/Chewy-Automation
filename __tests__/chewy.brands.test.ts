@@ -1,7 +1,9 @@
 import { ChewyPage } from "./pageObjects/chewy-page-object-model";
 const chromedriver = require("chromedriver");
 import { WebDriver, Builder, Capabilities, promise } from "selenium-webdriver";
+//comment for test git
 const driver:WebDriver = new Builder()
+//another test
   .withCapabilities(Capabilities.chrome())
   .build();
 
